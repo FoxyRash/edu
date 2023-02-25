@@ -41,6 +41,13 @@ namespace UgadaiChislo2
 
                     }
                 }
+                if (b == x)
+                {
+                    Console.Write("\n Поздравляю, ты угадал!");
+                    Console.Write("\n Введи что-то чтобы выйти: ");
+                    string f = Console.ReadLine();
+                    break;
+                }
                 if (a == 5)
                 {
                     Console.Write("\n Попытки закончились. Ты проиграл.");
